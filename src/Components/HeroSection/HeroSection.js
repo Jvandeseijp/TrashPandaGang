@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import MyCountDown from "../MyCountDown/MyCountDown";
 import styled from "styled-components";
+import { useMoralis } from "react-moralis";
+import { ABI, contractAddress } from "../../Utils/constants";
+
 const Wrapper = styled.div`
   padding: 300px 25px;
   background: url(./images/hero.png) #000;
@@ -109,6 +112,33 @@ const Wrapper = styled.div`
   }
 `;
 const HeroSection = () => {
+
+  const handleAuth = async() => {
+    await authenticate({ chainId: 'rinkeby', signingMessage: "Sign this Message to enter the Raffle!" });
+
+  }
+
+  const handleMint = async() => {
+    const sendOptions = {
+      contractAddress: contractAddress,
+      functionName: "mint",
+      abi: ABI,
+      params: {
+        
+        amount : 1
+
+        
+      } 
+     }
+     const transaction = await Moralis.executeFunction(sendOptions);
+     console.log(transaction.hash)      
+
+  }
+  const{
+    account,
+    authenticate,
+    Moralis
+  } = useMoralis()
   const [value, setValue] = useState(0);
   const socialArray = [
     { name: "Discord", icon: "/images/discord.png" },
@@ -122,7 +152,7 @@ const HeroSection = () => {
         TRASH <span className="panda">PANDA </span>GANG
       </h1>
       <p className="text">
-        Trash Panda Gang NFT will produce a unique collection of 7777 pieces.{" "}
+        Trash Panda Gang NFT will produce a unique collection of 5555 pieces.{" "}
         <br />
         They are going to conquer the Metaverse with their whole Gang.
       </p>
@@ -139,6 +169,14 @@ const HeroSection = () => {
             <p className="name">{el.name}</p>
           </div>
         ))}
+      </div>
+      <div className="container" style={{display: "flex", justifyContent: "center"}}>
+        <button onClick={handleAuth} className="social active mx-2" style={{display: "flex", justifyContent: "center", marginTop:20}}>
+          Enter Raffle
+        </button>
+        <button onClick={handleMint} className="social active mx-2" style={{display: "flex", justifyContent: "center", marginTop:20}}>
+          Mint
+        </button>
       </div>
     </Wrapper>
   );

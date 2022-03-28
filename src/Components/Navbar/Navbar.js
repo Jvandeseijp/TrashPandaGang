@@ -7,6 +7,8 @@ import { IoMdClose } from "react-icons/io";
 
 import { Link } from "react-scroll";
 import styled from "styled-components";
+import { useMoralis } from "react-moralis";
+
 const Wrapper = styled.div`
   position: fixed;
   padding: 20px 0;
@@ -37,6 +39,11 @@ const Wrapper = styled.div`
 `;
 
 const Navbar = () => {
+  const{
+    account,
+    authenticate,
+    Moralis
+  } = useMoralis()
   const [sidebar, setSidebar] = useState(false);
   const navArray = [
     { name: "Home", to: "hero" },
@@ -110,7 +117,9 @@ const Navbar = () => {
                 {el.name}
               </Link>
             ))}
+            
           </div>
+          
         )}
       </Col>
     </Wrapper>

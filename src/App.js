@@ -12,10 +12,11 @@ function App() {
       <Navbar />
       <HeroSection />
       <About />
+      <RoadMap />
       <Team />
       <Faq />
       <Join />
-      <RoadMap />
+      
       <p className="copyright">
         2022 © <span className="trash">Trash Panda Gang</span> All rights
         reserved
