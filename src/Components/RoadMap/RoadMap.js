@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { Row, Col } from "react-bootstrap";
-import { CgShapeHexagon } from "react-icons/cg";
+import { Col } from "react-bootstrap";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -229,13 +228,7 @@ const Wrapper = styled.div`
   }
 `;
 const RoadMap = () => {
-  const [value, setValue] = useState(null);
-  const socialArray = [
-    { name: "Discord", icon: "/images/discord.png" },
-
-    { name: "Twitter", icon: "/images/twitter.png" },
-    { name: "Instagram", icon: "/images/instagram.png" },
-  ];
+  
   const roadmap = [
     {
       img: "./images/roadmap1.png",
