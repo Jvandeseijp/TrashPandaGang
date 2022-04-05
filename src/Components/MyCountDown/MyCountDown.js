@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     padding: 0 15px;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
-    font-family: TT Firs Neue;
+
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -61,7 +61,7 @@ const MyCountDown = ({ dayCount }) => {
   }, [currentTime]);
 
   return (
-    <Wrapper>
+    <Wrapper data-aos="fade-up">
       <div className="count">
         {" "}
         <span>{`${day < 10 ? "0" + day : day}`}</span>

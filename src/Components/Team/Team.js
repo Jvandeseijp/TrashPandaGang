@@ -4,7 +4,6 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   padding: 55px 0;
   .title {
-    font-family: Capture it;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -16,7 +15,6 @@ const Wrapper = styled.div`
     color: #ffffff;
   }
   .tagline {
-    font-family: TT Firs Neue;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -31,7 +29,6 @@ const Wrapper = styled.div`
     width: 100%;
   }
   .position {
-    font-family: TT Firs Neue;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -41,7 +38,6 @@ const Wrapper = styled.div`
     color: #0bd488;
   }
   .name {
-    font-family: Capture it;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -53,7 +49,6 @@ const Wrapper = styled.div`
     color: #ffffff;
   }
   .text {
-    font-family: TT Firs Neue;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -72,6 +67,10 @@ const Wrapper = styled.div`
     .title {
       font-size: 40px;
     }
+  }
+  .barSvg
+  {
+    display:flex;margin:5px auto;
   }
 `;
 const Team = () => {
@@ -112,46 +111,30 @@ const Team = () => {
       imdb: "https://www.imdb.com/",
       twitter: "https://twitter.com/",
     },
-    {
-      img: "./images/1.png",
-      position: "Managing Director",
-      name: "Sonia A. Smith",
-      text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      imdb: "https://www.imdb.com/",
-      twitter: "https://twitter.com/",
-    },
-    {
-      img: "./images/1.png",
-      position: "Managing Director",
-      name: "Sonia A. Smith",
-      text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      imdb: "https://www.imdb.com/",
-      twitter: "https://twitter.com/",
-    },
   ];
   return (
-    <Wrapper id="team">
+    <Wrapper id="team" data-aos="fade-up">
       <Col xs={11} md={10} xl={9} xxl={8} className="mx-auto">
-        <h3 className="title text-center">Our Team Artis</h3>
+        <h3 className="title text-center">Our Team </h3>
+        <svg className="barSvg" xmlns="http://www.w3.org/2000/svg" width="167" height="10" viewBox="0 0 167 10" fill="none"><rect width="167" height="2" rx="1" fill="#0bd488"></rect><rect y="8" width="87" height="2" rx="1" x="40" fill="#0bd488"></rect><defs><linearGradient id="paint0_linear_393_3132" x1="167" y1="2" x2="-0.00152114" y2="0.136306" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient><linearGradient id="paint1_linear_393_3132" x1="87" y1="10" x2="-0.00868664" y2="9.49415" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient></defs></svg>
         <p className="tagline text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{" "}
           accumsan hendrerit commodo.
         </p>
-        <Row className="my-4">
+        <Row className="my-2">
           {teamArray.map((el, i) => (
             <Col
               sm={6}
-              md={4}
+              md={6}
               key={i}
-              className="my-4 d-flex flex-column justify-content-between"
+              className="my-2 d-flex flex-column justify-content-between"
+              data-aos="fade-up"
             >
               <div>
                 <img src={el.img} alt="#" className="image" />
-                <p className="position my-3">{el.position}</p>
+                <p className="position my-2">{el.position}</p>
                 <p className="name">{el.name}</p>
-                <p className="text my-3">{el.text}</p>
+                <p className="text my-2">{el.text}</p>
               </div>
               <div>
                 <a

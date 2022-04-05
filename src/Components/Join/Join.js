@@ -4,7 +4,6 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   padding: 55px 0;
   .title {
-    font-family: Capture it;
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
@@ -23,7 +22,7 @@ const Wrapper = styled.div`
     padding: 12px 18px;
     border: 1px solid #fff;
     border-radius: 8px;
-    font-family: TT Firs Neue;
+
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -76,6 +75,7 @@ const Join = () => {
             md={6}
             lg={5}
             className="my-3 my-0 d-flex flex-column align-items-center lign-items-md-start"
+            data-aos="fade-right"
           >
             <h2 className="title d-none d-md-block">Join Us!</h2>{" "}
             <div className="socialContainer">
@@ -94,6 +94,7 @@ const Join = () => {
             </div>
           </Col>
           <Col
+            data-aos="fade-left"
             sm={7}
             md={6}
             lg={7}

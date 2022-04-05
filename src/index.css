@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000 !important;
+
+  font-family: "Montserrat", sans-serif !important;
 }
 
 code {
@@ -26,7 +28,7 @@ a {
   text-decoration: none !important;
 }
 .copyright {
-  font-family: TT Firs Neue;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -41,4 +43,31 @@ a {
 }
 .trash {
   color: #fff;
+}
+
+h3{
+  font-family: sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 28px !important;  
+  color: #0bd488 !important;
+  margin-bottom: 16px !important;
+}
+
+#raffleButton{
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 16px 32px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    font-family: Source Sans Pro,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000;
 }

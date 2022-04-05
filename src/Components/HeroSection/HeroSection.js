@@ -1,25 +1,21 @@
 import React, { useState } from "react";
-import { Row, Col } from "react-bootstrap";
 import MyCountDown from "../MyCountDown/MyCountDown";
 import styled from "styled-components";
-import { useMoralis } from "react-moralis";
-import { ABI, contractAddress } from "../../Utils/constants";
-
 const Wrapper = styled.div`
-  padding: 300px 25px;
-  background: url(./images/hero.png) #000;
+  padding: 150px 25px;
+  background: url(./images/herocolor.png) #000;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 900px;
+
   color: #fff;
 
   .title {
-    font-family: Capture it;
-    font-style: normal;
     font-weight: normal;
     font-size: 85px;
     line-height: 100%;
+    font-weight: 900; 
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -29,7 +25,6 @@ const Wrapper = styled.div`
     color: #0bd488;
   }
   .text {
-    font-family: TT Firs Neue;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -110,73 +105,40 @@ const Wrapper = styled.div`
     height: auto;
     padding: 170px 10px;
   }
+
 `;
 const HeroSection = () => {
-
-  const handleAuth = async() => {
-    await authenticate({ chainId: 'rinkeby', signingMessage: "Sign this Message to enter the Raffle!" });
-
-  }
-
-  const handleMint = async() => {
-    const sendOptions = {
-      contractAddress: contractAddress,
-      functionName: "mint",
-      abi: ABI,
-      params: {
-        
-        amount : 1
-
-        
-      } 
-     }
-     const transaction = await Moralis.executeFunction(sendOptions);
-     console.log(transaction.hash)      
-
-  }
-  const{
-    account,
-    authenticate,
-    Moralis
-  } = useMoralis()
-  const [value, setValue] = useState(0);
-  const socialArray = [
-    { name: "Discord", icon: "/images/discord.png" },
-    { name: "OpenSea", icon: "/images/opensea.png" },
-    { name: "Twitter", icon: "/images/twitter.png" },
-    { name: "Instagram", icon: "/images/instagram.png" },
-  ];
+  
   return (
-    <Wrapper id="hero">
-      <h1 className="title">
-        TRASH <span className="panda">PANDA </span>GANG
+    <Wrapper id="hero" data-aos="fade-up">
+      <h1 className="title" data-aos="fade-down">
+        TRASH <span className="panda">PANDA </span>
+        GANG
       </h1>
-      <p className="text">
+      <p className="text" data-aos="fade-down">
         Trash Panda Gang NFT will produce a unique collection of 5555 pieces.{" "}
         <br />
         They are going to conquer the Metaverse with their whole Gang.
       </p>
       <MyCountDown dayCount="April 05, 2022 20:00:00" />
 
-      <div className="socialContainer">
-        {socialArray.map((el, i) => (
-          <div
-            key={i}
-            className={value === i ? "social active mx-2" : "social  mx-2"}
-            onClick={() => setValue(i)}
-          >
-            <img src={el.icon} alt="#" />
-            <p className="name">{el.name}</p>
-          </div>
-        ))}
-      </div>
-      <div className="container" style={{display: "flex", justifyContent: "center"}}>
-        <button onClick={handleAuth} className="social active mx-2" style={{display: "flex", justifyContent: "center", marginTop:20}}>
-          Enter Raffle
-        </button>
-        <button onClick={handleMint} className="social active mx-2" style={{display: "flex", justifyContent: "center", marginTop:20}}>
-          Mint
-        </button>
+      <div style={{display: 'flex',
+          justifyContent: 'center',}} data-aos="fade-up">
+        <button style={{
+          cursor: 'pointer',
+          background: '#fff', 
+          color: '#000',
+          padding: '16px 32px', 
+          position: 'relative',          
+          fontWeight: 600,
+          fontSize: '22px',
+          lineHeight: '20px',
+          borderRadius: '5px',
+          width: '250px',
+          border: 'none',
+
+          
+          }}>ENTER RAFFLE</button>
       </div>
     </Wrapper>
   );
