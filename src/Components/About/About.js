@@ -79,7 +79,7 @@ const About = () => {
             Trash Panda Gang have been investing in knowledge which created a platform for personal and self-development.
             </p>
             <p className="text">
-            To own a Trash Panda is a big privilege. Owning a Trash Panda NFT works as a membership pass that gives you access to many private workshops. 
+            To own a Trash Panda is a big privilege. Owning a Trash Panda NFT works as a membership pass that gives you access to many private workshops and to exclusive merchandise. 
             These workshops will be hosted all over the world with many experts and well-known NFT projects.
             </p>
             <p className="text">

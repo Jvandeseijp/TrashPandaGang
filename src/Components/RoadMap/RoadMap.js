@@ -235,9 +235,9 @@ const RoadMap = () => {
       img: "./images/roadmap1.png",
       title: "TPG",
       text:[
-        "Launch of 5555 Trash Panda Gang NFT’s.",
-        "X20 Legendary TPG’s",
-        "Limited edition merch drop for holder who holds 2+ TPG’s .",
+        "Launch of 5555 Trash Panda Gang NFTs.",
+        "X20 Legendary TPGs.",
+        "Limited edition merch drop for holder who holds 2+ TPGs .",
         "555 TPG Warriors will receive a free exclusive NFT airdrop."
       ]
     },
@@ -294,7 +294,7 @@ const RoadMap = () => {
         <div className="d-flex justify-content-between align-items-start align-items-md-center flex-column flex-md-row">
           <div>
             {" "}
-            <h3 className="title">RoadMap</h3>
+            <h3 className="title">Roadmap</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="167" height="10" viewBox="0 0 167 10" fill="none"><rect width="167" height="2" rx="1" fill="url(#paint0_linear_393_3132)"></rect><rect y="8" width="87" height="2" rx="1" fill="url(#paint1_linear_393_3132)"></rect><defs><linearGradient id="paint0_linear_393_3132" x1="167" y1="2" x2="-0.00152114" y2="0.136306" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient><linearGradient id="paint1_linear_393_3132" x1="87" y1="10" x2="-0.00868664" y2="9.49415" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient></defs></svg>
            
           </div>

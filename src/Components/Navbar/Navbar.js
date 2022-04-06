@@ -58,7 +58,7 @@ const Navbar = () => {
     { name: "Home", to: "hero" },
     { name: "About us", to: "about" },
     { name: "Features", to: "features" },
-    { name: "RoadMap", to: "roadmap" },
+    { name: "Roadmap", to: "roadmap" },
     { name: "Team", to: "team" },
     { name: "FAQ", to: "faq" },
   ];
