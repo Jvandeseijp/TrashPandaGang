@@ -1,7 +1,10 @@
 import React from "react";
 import MyCountDown from "../MyCountDown/MyCountDown";
+import { Row, Col } from "react-bootstrap";
+
 import styled from "styled-components";
 const Wrapper = styled.div`
+
   padding: 150px 25px;
   background: url(./images/herocolor.png) #000;
   background-size: cover;
@@ -30,6 +33,8 @@ const Wrapper = styled.div`
   .panda {
     color: #0bd488;
   }
+
+  
   .text {
     font-style: normal;
     font-weight: 500;
@@ -83,6 +88,50 @@ const Wrapper = styled.div`
       font-size: 18px;
     }
   }
+
+  
+.button.buttonMimas {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  overflow: hidden;
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #000000;
+}
+.button.buttonMimas span {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.button.buttonMimas span > svg {
+  width: 32px;
+  margin-right: 10px;
+}
+.button.buttonMimas span > svg path {
+  fill: #ffffff;
+}
+.button.buttonMimas::before {
+  content: "";
+  background: #586AEA;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.button.buttonMimas:hover {
+  color: #0bd488;
+}
+.button.buttonMimas:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+.button.buttonMimas:hover span > svg path {
+  fill: #000000;
+}
+
   @media only screen and (max-width: 575px) {
     height: auto;
     padding: 200px 25px;
@@ -217,7 +266,22 @@ const HeroSection = () => {
         <br />
         They are going to conquer the Metaverse with their whole Gang.
       </p>
-      <MyCountDown dayCount="April 12, 2022 20:00:00" />
+      {/*<MyCountDown dayCount="April 12, 2022 20:00:00" />*/}
+
+      <br />
+      <br />
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <a href="https://discord.gg/trashpandagang"><button style={{
+        padding : '16px 32px',
+        background: '#ffffff',
+        color: '#000000',
+        border: 'none',
+        borderRadius: '4px',
+        fontWeight: 700,
+        fontSize: '28px'
+
+      }}> Join Our Discord</button></a>
+      </div>
 
       <div style={{display: 'flex',
           justifyContent: 'center',}} data-aos="fade-up">

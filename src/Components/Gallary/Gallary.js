@@ -30,17 +30,26 @@ const Wrapper = styled.div`
 
 const Gallary = () => {
   const gallary = [
-    "./images/1.png",
-    "./images/austronaut.png",
-    "./images/birdssatin.png",
-    "./images/guccigreen.png",
-    "./images/ironmanred.png",
-    "./images/karatekid.png",
-    "./images/napoleon.png",
-    "./images/rakunk.png",
-    "./images/samurailord.png",
-    "./images/soldier.png",
+    "./images/birds_satin-min.png",
+    "./images/furcoat_yellow-min.png",
+    "./images/gucci_green-min.png",
+    "./images/napoleon01-min.png",
+    "./images/puffer_pink-min.png",
+    "./images/samurai_lord-min.png",
+    "./images/soldier01-min.png",
+    "./images/techwear_blue-min.png",
+    "./images/tpg 1-min.png",
     
+  ];
+  const gallery = [
+    "./images/tpg 2-min.png",
+    "./images/tpg 3-min.jpeg",
+    "./images/tpg 4-min.png",
+    "./images/tpg 5-min.png",
+    "./images/tpg 6-min.png",
+    "./images/tpg7-min.jpeg",
+    "./images/tpg 8-min.png",
+    "./images/tpg 9-min.png",        
   ];
   return (
     <Wrapper>
@@ -56,7 +65,7 @@ const Gallary = () => {
       </Marquee>
       <Marquee gradientColor={[""]} speed={120} direction='right'>
         <div className="image-container" data-aos="fade-up">
-          {gallary.map((el, i) => (
+          {gallery.map((el, i) => (
             <div key={i} className="mx-2 w-100">
               <img src={el} alt="#" className="image" />
             </div>

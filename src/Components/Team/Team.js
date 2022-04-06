@@ -80,26 +80,25 @@ const Team = () => {
       position: "Co-Founder & Artist",
       name: "Milen Piskuliyski",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      imdb: "https://www.imdb.com/",
-      twitter: "https://twitter.com/",
+      linkedin: "https://www.linkedin.com/in/milenpiskuliyski/",
+      imdb: "https://www.imdb.com/name/nm4691128/",
+      twitter: "https://twitter.com/milenpp",
     },
     {
       img: "./images/1.png",
       position: "Co-Founder & Artist",
       name: "Dorothy Ballarini",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      imdb: "https://www.imdb.com/",
-      twitter: "https://twitter.com/",
+      linkedin: "https://www.linkedin.com/in/dorothyballarini/",
+      imdb: "https://www.imdb.com/name/nm4809197/",
+      twitter: "https://twitter.com/DorothyBallarin",
     },
     {
       img: "./images/cigar.png",
       position: "Co-Founder & Head of Marketing",
       name: "Kevsko",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      twitter: "https://twitter.com/",
+      twitter: "https://twitter.com/kevinsnftspace",
     },
     {
       img: "./images/karatekid-min.png",
@@ -139,6 +138,7 @@ const Team = () => {
                   <p className="text my-2">{el.text}</p>
                 </div>
                 <div>
+                  {el.linkedin?
                   <a
                     href={el.linkedin}
                     className="social"
@@ -146,7 +146,8 @@ const Team = () => {
                     rel="noreferrer"
                   >
                     <img src="./images/linkedin.png" alt="#" />
-                  </a>
+                  </a>:''}
+                  {el.imdb?
                   <a
                     href={el.imdb}
                     className="social"
@@ -154,7 +155,8 @@ const Team = () => {
                     rel="noreferrer"
                   >
                     <img src="./images/imdb.png" alt="#" />
-                  </a>
+                  </a> : ''}
+                  {el.twitter?
                   <a
                     href={el.twitter}
                     className="social"
@@ -162,7 +164,7 @@ const Team = () => {
                     rel="noreferrer"
                   >
                     <img src="./images/twitter2.png" alt="#" />
-                  </a>
+                  </a> : '' }
                 </div>
               </Col>
             </Col>
