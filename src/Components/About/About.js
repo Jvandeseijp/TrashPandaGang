@@ -97,7 +97,7 @@ const About = () => {
             lg={6}
             className="d-flex justify-content-center align-items-center my-3 my-md-0 mx-auto"
           >
-            <img src="/images/join.png" alt="#" className="image mx-auto" />
+            <img src="/images/soldier01-min.png" alt="#" className="image mx-auto" />
           </Col>
         </Row>
       </Col>
