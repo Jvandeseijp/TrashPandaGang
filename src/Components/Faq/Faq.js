@@ -80,29 +80,48 @@ const Faq = () => {
   const [value, setValue] = useState(null);
   const dashboardArray = [
     {
+      question: "What is the supply?",
+
+      Ans: "There will be a total of 5555 NFT's available for mint.",
+    },
+    {
+      question: "What blockchain will Trash Panda Gang be on?",
+
+      Ans: "TPG will be launched on the Ethereum blockchain.",
+    },
+    {
+      question: "How do I get on the Whitelist?",
+
+      Ans: "Go to ⚪-whitelist-info and follow the requirements to get more chance to be WL",
+    },
+    {
+      question: "Can Whitelist be revoked?",
+
+      Ans: "Yes, if we find that you are inactive or break any of our rules.",
+    },
+    {
       question: "What are the objectives of this Token?",
 
-      Ans: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
-    },
-    {
-      question: "What is the best features and services?",
-
-      Ans: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
-    },
-    {
-      question: "How may I take part in and purchase this NFT?",
-
-      Ans: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
-    },
-    {
-      question: "Why this Grift important to me?",
-
-      Ans: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
+      Ans:`- You will have the @📄TPG Whitelisted role on your TPG profile!
+      - Make sure to read ⚪-whitelist-info & 📣-announcements frequently so you don't miss out on new updates!`,
     },
     {
       question: "What are the objectives of this Token?",
 
-      Ans: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
+      Ans:`- You will have the @📄TPG Whitelisted role on your TPG profile!
+      - Make sure to read ⚪-whitelist-info & 📣-announcements frequently so you don't miss out on new updates!`,
+    },
+    {
+      question: "What is the Mint price?",
+
+      Ans:`To be announced.`,
+    },
+    {
+      question: "How many pieces can you mint?",
+
+      Ans:`- The Whitelist can mint up to 2 NFT's
+      - The TPG Warriors can mint up to 3 NFT's
+      - The Raffle can mint up to 4 NFT's (the remaining ones)`,
     },
   ];
 
