@@ -105,8 +105,7 @@ const Team = () => {
       position: "Web3 Developer & Security Auditor",
       name: "Jarmo van de Seijp",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
-      linkedin: "https://bd.linkedin.com/",
-      twitter: "https://twitter.com/",
+      linkedin: "https://www.linkedin.com/in/jarmo-van-de-seijp/",
     },
   ];
   return (
