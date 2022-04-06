@@ -227,47 +227,50 @@ const Wrapper = styled.div`
   }
 `;
 const RoadMap = () => {
+
+
   
   const roadmap = [
     {
       img: "./images/roadmap1.png",
-      title: "Our Own Token",
+      title: "TPG",
       text1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+        `- Launch of 5555 Trash Panda Gang NFT’s.`,
       text2:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here.",
+        "- X20 Legendary TPG’s",
+     
     },
     {
       img: "./images/roadmap2.png",
-      title: "Our Own Token",
+      title: "Process",
       text1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+        "Launchpad Whitelist Raffles of other projects.",
       text2:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here.",
+        "Insane network around the globe.",
     },
     {
       img: "./images/roadmap3.png",
-      title: "Our Own Token",
+      title: "THE START",
       text1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+        "Personal and self-development platform.",
       text2:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here.",
+        "Access to weekly workshops.",
     },
     {
       img: "./images/roadmap4.png",
-      title: "Our Own Token",
+      title: "Building",
       text1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+        "Group of holders gets the possibility to create their own NFT project.",
       text2:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here.",
+        " connected to TPG, sponsored financially, and connections from TPG network.",
     },
     {
       img: "./images/roadmap5.png",
-      title: "Our Own Token",
+      title: "LOADING…",
       text1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+        "Buying Sandbox land for TPG holders.",
       text2:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here.",
+        "Creating businesses and business ideas in the Metaverse.",
     },
   ];
 

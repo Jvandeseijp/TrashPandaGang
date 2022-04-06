@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 1000px;
 
   color: #fff;
 
@@ -120,11 +120,11 @@ const HeroSection = () => {
         <br />
         They are going to conquer the Metaverse with their whole Gang.
       </p>
-      <MyCountDown dayCount="April 05, 2022 20:00:00" />
+      <MyCountDown dayCount="April 12, 2022 20:00:00" />
 
       <div style={{display: 'flex',
           justifyContent: 'center',}} data-aos="fade-up">
-        <button style={{
+        {/*<button style={{
           cursor: 'pointer',
           background: '#fff', 
           color: '#000',
@@ -138,7 +138,7 @@ const HeroSection = () => {
           border: 'none',
 
           
-          }}>ENTER RAFFLE</button>
+          }}>ENTER RAFFLE</button>*/}
       </div>
     </Wrapper>
   );
