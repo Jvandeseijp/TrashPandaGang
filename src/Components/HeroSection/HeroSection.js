@@ -1,6 +1,5 @@
 import React from "react";
-import MyCountDown from "../MyCountDown/MyCountDown";
-import { Row, Col } from "react-bootstrap";
+
 
 import styled from "styled-components";
 const Wrapper = styled.div`
