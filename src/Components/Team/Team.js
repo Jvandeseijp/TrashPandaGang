@@ -76,7 +76,7 @@ const Wrapper = styled.div`
 const Team = () => {
   const teamArray = [
     {
-      img: "./images/birdssatin",
+      img: "./images/birdssatin.png",
       position: "Co-Founder & Artist",
       name: "Milen Piskuliyski",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
@@ -94,7 +94,7 @@ const Team = () => {
       twitter: "https://twitter.com/",
     },
     {
-      img: "./images/napoleon.png",
+      img: "./images/cigar.png",
       position: "Co-Founder & Head of Marketing",
       name: "Kevsko",
       text: "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum been the industry's standard dummy.",
