@@ -92,7 +92,7 @@ const Faq = () => {
     {
       question: "How do I get on the Whitelist?",
 
-      Ans: "Go to whitelist info channel in Discord and follow the requirements to get more chance to be WL",
+      Ans: "Go to whitelist info channel in Discord and follow the requirements to get more chance to be WL.",
     },
     {
       question: "Can Whitelist be revoked?",
@@ -100,10 +100,10 @@ const Faq = () => {
       Ans: "Yes, if we find that you are inactive or break any of our rules.",
     },
     {
-      question: "What are the objectives of this Token?",
+      question: "How do I know if I'm on the whitelist?",
 
-      Ans:`- You will have the @📄TPG Whitelisted role on your TPG discord profile!
-      - Make sure to read whitelist info channel in Discord & 📣-announcements channel frequently so you don't miss out on new updates!`,
+      Ans:` You will have the 📄TPG Whitelisted role on your TPG discord profile!
+      Make sure to read whitelist info channel in Discord & 📣-announcements channel frequently so you don't miss out on new updates!`,
     },
    
     {
@@ -114,9 +114,9 @@ const Faq = () => {
     {
       question: "How many pieces can you mint?",
 
-      Ans:`- The Whitelist can mint up to 2 NFTs
-      - The TPG Warriors can mint up to 3 NFTs
-      - The Raffle can mint up to 4 NFTs (the remaining ones)`,
+      Ans:`The Whitelist can mint up to 2 NFTs.
+      The TPG Warriors can mint up to 3 NFTs.
+      The Raffle can mint up to 4 NFTs (the remaining ones).`,
     },
   ];
 
