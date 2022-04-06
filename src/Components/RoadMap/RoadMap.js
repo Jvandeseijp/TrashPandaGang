@@ -234,43 +234,54 @@ const RoadMap = () => {
     {
       img: "./images/roadmap1.png",
       title: "TPG",
-      text1:
-        `- Launch of 5555 Trash Panda Gang NFT’s.`,
-      text2:
-        "- X20 Legendary TPGs",
-     
+      text:[
+        "Launch of 5555 Trash Panda Gang NFT’s.",
+        "X20 Legendary TPG’s",
+        "Limited edition merch drop for holder who holds 2+ TPG’s .",
+        "555 TPG Warriors will receive a free exclusive NFT airdrop."
+      ]
     },
     {
       img: "./images/roadmap2.png",
-      title: "Process",
-      text1:
-        "- Launchpad Whitelist Raffles of other projects.",
-      text2:
-        "- Insane network around the globe.",
+      title: "PROCESS",
+      text:[
+        "Launchpad Whitelist Raffles of other projects.",
+        "Insane network around the globe.",
+        "Merch shop for holders only.",
+        "Gifts and airdrops.",
+        "Owner’s rights.",
+        "Creating a personal and self-development platform."
+      ]
     },
     {
       img: "./images/roadmap3.png",
       title: "THE START",
-      text1:
-        "- Personal and self-development platform.",
-      text2:
-        "- Access to weekly workshops.",
+      text:[
+        "Personal and self-development platform.",
+        "Access to weekly workshops.",
+        "Exclusive events.",
+        "Learn from experts how to make money online."  
+      ]
     },
     {
       img: "./images/roadmap4.png",
-      title: "Building",
-      text1:
-        "- Group of holders gets the possibility to create their own NFT project.",
-      text2:
-        "- Connected to TPG, sponsored financially, and connections from TPG network.",
+      title: "BUILDING",
+      text:[
+        "Group of holders gets the possibility to create their own NFT project.",
+        "connected to TPG, sponsored financially and connections from TPG network.",
+        "Physical collectible Items. (mint pass)",
+        "Pandas collection. (mint pass)"
+      ]
     },
     {
       img: "./images/roadmap5.png",
       title: "LOADING…",
-      text1:
-        "- Buying Sandbox land for TPG holders.",
-      text2:
-        "- Creating businesses and business ideas in the Metaverse.",
+      text:[
+        "Buying Sandbox land for TPG holders.",
+        "Creating businesses and business ideas in the Metaverse.",
+        "TPG V2.",
+        "Roadmap 2.0",
+      ]
     },
   ];
 
@@ -310,14 +321,16 @@ const RoadMap = () => {
                 }`}
               >
                 <span className="vertical-timeline-element-title">
-                  <span className="index">{i + 1}.</span> {el.title}
+                  <span className="index">PHASE {i + 1}.</span> {el.title}
                 </span>
-                <span className="vertical-timeline-element-subtitle mt-3">
-                  {el.text1}
-                </span>
-                <span className="vertical-timeline-element-subtitle mt-3">
-                  {el.text2}
-                </span>
+
+                {el.text.map((t,i)=>(
+
+                  <span className="vertical-timeline-element-subtitle mt-3" key={i}>
+                    - {t}
+                  </span>
+                ))
+                }
               </div>
             </VerticalTimelineElement>
           ))}

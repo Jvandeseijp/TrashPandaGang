@@ -119,44 +119,52 @@ const Team = () => {
         <Row className="my-2">
           {teamArray.map((el, i) => (
             <Col
-              sm={6}
-              md={6}
-              key={i}
-              className="my-2 d-flex flex-column justify-content-between"
-              data-aos="fade-up"
-            >
-              <div>
-                <img src={el.img} alt="#" className="image" />
-                <p className="position my-2">{el.position}</p>
-                <p className="name">{el.name}</p>
-                <p className="text my-2">{el.text}</p>
-              </div>
-              <div>
-                <a
-                  href={el.linkedin}
-                  className="social"
-                  target="_blank"
-                  rel="noreferrer"
+                sm={6}
+                md={6}
+                key={i}
+                className="my-2 d-flex flex-column justify-content-center align-items-center"
+                data-aos="fade-up"
                 >
-                  <img src="./images/linkedin.png" alt="#" />
-                </a>
-                <a
-                  href={el.imdb}
-                  className="social"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="./images/imdb.png" alt="#" />
-                </a>
-                <a
-                  href={el.twitter}
-                  className="social"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="./images/twitter2.png" alt="#" />
-                </a>
-              </div>
+              <Col
+                sm={8}
+                md={8}
+                key={i}
+                className="my-2 d-flex flex-column justify-content-between "
+                data-aos="fade-up"
+              >
+                <div>
+                  <img src={el.img} alt="#" className="image" />
+                  <p className="position my-2">{el.position}</p>
+                  <p className="name">{el.name}</p>
+                  <p className="text my-2">{el.text}</p>
+                </div>
+                <div>
+                  <a
+                    href={el.linkedin}
+                    className="social"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="./images/linkedin.png" alt="#" />
+                  </a>
+                  <a
+                    href={el.imdb}
+                    className="social"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="./images/imdb.png" alt="#" />
+                  </a>
+                  <a
+                    href={el.twitter}
+                    className="social"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="./images/twitter2.png" alt="#" />
+                  </a>
+                </div>
+              </Col>
             </Col>
           ))}
         </Row>
