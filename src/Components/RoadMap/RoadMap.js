@@ -237,7 +237,7 @@ const RoadMap = () => {
       text1:
         `- Launch of 5555 Trash Panda Gang NFT’s.`,
       text2:
-        "- X20 Legendary TPG’s",
+        "- X20 Legendary TPGs",
      
     },
     {

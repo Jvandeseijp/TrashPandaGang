@@ -119,8 +119,8 @@ const Faq = () => {
     {
       question: "How many pieces can you mint?",
 
-      Ans:`- The Whitelist can mint up to 2 NFT's
-      - The TPG Warriors can mint up to 3 NFT's
+      Ans:`- The Whitelist can mint up to 2 NFTs
+      - The TPG Warriors can mint up to 3 NFTs
       - The Raffle can mint up to 4 NFT's (the remaining ones)`,
     },
   ];
