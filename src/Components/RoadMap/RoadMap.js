@@ -227,8 +227,6 @@ const Wrapper = styled.div`
   }
 `;
 const RoadMap = () => {
-
-
   
   const roadmap = [
     {
@@ -237,7 +235,7 @@ const RoadMap = () => {
       text:[
         "Launch of 5555 Trash Panda Gang NFTs.",
         "X20 Legendary TPGs.",
-        "Limited edition merch drop for holder who holds 2+ TPGs .",
+        "Limited edition merch drop for holder who holds 2+ TPGs.",
         "555 TPG Warriors will receive a free exclusive NFT airdrop."
       ]
     },
@@ -268,9 +266,9 @@ const RoadMap = () => {
       title: "BUILDING",
       text:[
         "Group of holders gets the possibility to create their own NFT project.",
-        "connected to TPG, sponsored financially and connections from TPG network.",
-        "Physical collectible Items. (mint pass)",
-        "Pandas collection. (mint pass)"
+        "Connected to TPG, sponsored financially and connections from TPG network.",
+        "Physical collectible Items. (Mint pass)",
+        "Pandas collection. (Mint pass)"
       ]
     },
     {

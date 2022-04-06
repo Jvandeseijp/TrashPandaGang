@@ -57,7 +57,7 @@ const Navbar = () => {
   const navArray = [
     { name: "Home", to: "hero" },
     { name: "About us", to: "about" },
-    { name: "Features", to: "features" },
+    { name: "Artists", to: "artists" },
     { name: "Roadmap", to: "roadmap" },
     { name: "Team", to: "team" },
     { name: "FAQ", to: "faq" },
