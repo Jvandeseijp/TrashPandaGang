@@ -270,14 +270,14 @@ const HeroSection = () => {
       <br />
       <br />
       <div style={{display: 'flex', justifyContent: 'center'}}>
-      <a href="https://discord.gg/trashpandagang"><button style={{
+      <a href="https://discord.gg/trashpandagang" target="_blank"><button style={{
         padding : '16px 32px',
         background: '#ffffff',
         color: '#000000',
         border: 'none',
         borderRadius: '4px',
         fontWeight: 700,
-        fontSize: '28px'
+        fontSize: '22px'
 
       }}> Join Our Discord</button></a>
       </div>
