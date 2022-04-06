@@ -113,7 +113,7 @@ const Team = () => {
   return (
     <Wrapper id="team" data-aos="fade-up">
       <Col xs={11} md={10} xl={9} xxl={8} className="mx-auto">
-        <h3 className="title text-center">Our Team </h3>
+        <h3 className="title text-center">Our Core Team </h3>
         <svg className="barSvg" xmlns="http://www.w3.org/2000/svg" width="167" height="10" viewBox="0 0 167 10" fill="none"><rect width="167" height="2" rx="1" fill="#0bd488"></rect><rect y="8" width="87" height="2" rx="1" x="40" fill="#0bd488"></rect><defs><linearGradient id="paint0_linear_393_3132" x1="167" y1="2" x2="-0.00152114" y2="0.136306" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient><linearGradient id="paint1_linear_393_3132" x1="87" y1="10" x2="-0.00868664" y2="9.49415" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient></defs></svg>
        
         <Row className="my-2">
