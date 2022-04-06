@@ -244,33 +244,33 @@ const RoadMap = () => {
       img: "./images/roadmap2.png",
       title: "Process",
       text1:
-        "Launchpad Whitelist Raffles of other projects.",
+        "- Launchpad Whitelist Raffles of other projects.",
       text2:
-        "Insane network around the globe.",
+        "- Insane network around the globe.",
     },
     {
       img: "./images/roadmap3.png",
       title: "THE START",
       text1:
-        "Personal and self-development platform.",
+        "- Personal and self-development platform.",
       text2:
-        "Access to weekly workshops.",
+        "- Access to weekly workshops.",
     },
     {
       img: "./images/roadmap4.png",
       title: "Building",
       text1:
-        "Group of holders gets the possibility to create their own NFT project.",
+        "- Group of holders gets the possibility to create their own NFT project.",
       text2:
-        " connected to TPG, sponsored financially, and connections from TPG network.",
+        "- Connected to TPG, sponsored financially, and connections from TPG network.",
     },
     {
       img: "./images/roadmap5.png",
       title: "LOADING…",
       text1:
-        "Buying Sandbox land for TPG holders.",
+        "- Buying Sandbox land for TPG holders.",
       text2:
-        "Creating businesses and business ideas in the Metaverse.",
+        "- Creating businesses and business ideas in the Metaverse.",
     },
   ];
 
