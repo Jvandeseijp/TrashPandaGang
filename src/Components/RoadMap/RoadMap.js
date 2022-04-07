@@ -287,9 +287,9 @@ const RoadMap = () => {
     <Wrapper id="roadmap" data-aos="fade-up">
       
 
-      <Col xs={11} lg={7} xl={7} xxl={7} className="mx-auto">
+      <Col xs={10} lg={6} xl={6} xxl={6} className="mx-auto">
         {" "}
-        <div className="d-flex justify-content-between align-items-start align-items-md-center flex-column flex-md-row">
+        <div className="d-flex justify-content-between align-items-start align-items-md-center flex-column flex-md-row mb-4">
           <div>
             {" "}
             <h3 className="title">Roadmap</h3>
@@ -302,7 +302,7 @@ const RoadMap = () => {
           <span className="TimeLineProgress">
             <span className="TimeLineProgressBar"></span>
           </span>
-          <div>
+          <div className="w-100">
           {roadmap.map((el, i) => (
             <VerticalTimelineElement
               key={i}
