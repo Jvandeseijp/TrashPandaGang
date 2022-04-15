@@ -64,7 +64,7 @@ const Gallary = () => {
           ))}
         </div>
       </Marquee>
-      <Marquee gradientColor={[""]} speed={120} direction='right'>
+      <Marquee gradientColor={[""]} speed={120} direction='right' style={{overflowY:"hidden"}}>
         <div className="image-container" data-aos="fade-up">
           {gallery.map((el, i) => (
             <div key={i} className="mx-2 w-100">
