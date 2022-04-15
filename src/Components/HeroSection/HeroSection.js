@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
 
   padding: 150px 25px;
-  background: url(./images/herocolor.png) #000;
+  background: url(./images/backfaded.png) #000;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

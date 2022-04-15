@@ -65,7 +65,7 @@ const Wrapper = styled.div`
 `;
 const Features = () => {
   return (
-    <Wrapper id="about" data-aos="fade-up">
+    <Wrapper id="artists" data-aos="fade-up">
       <Col xs={11} md={10} xl={9} xxl={8} className="mx-auto">
         <Row className="align-items-center">
         <Col
@@ -75,7 +75,7 @@ const Features = () => {
             lg={6}
             className="d-flex justify-content-center align-items-center my-3 my-md-0 mx-auto"
           >
-            <img src="/images/puffer_pink.png" alt="#" className="image mx-auto" />
+            <img src="/images/austronaut.png" alt="#" className="image mx-auto" />
           </Col>
           <Col md={7} lg={6} className="my-3 my-md-0" data-aos="fade-right">
             <h3 className="title">

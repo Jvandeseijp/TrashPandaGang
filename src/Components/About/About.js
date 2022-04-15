@@ -87,7 +87,6 @@ const About = () => {
              5555 Trash Pandas will be minted. 
             <br />
             <br />
-            Welcome to our TPG moneyverse.
             </p>
           </Col>
           <Col
