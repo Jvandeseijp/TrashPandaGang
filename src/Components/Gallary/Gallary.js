@@ -54,7 +54,7 @@ const Gallary = () => {
   ];
   return (
     <Wrapper>
-      <Marquee speed={120} gradientColor={[""]} data-aos="fade-up">
+      <Marquee speed={120} gradientColor={[""]} data-aos="fade-up" style={{overflowY:"hidden"}}>
         <div className="image-container">
           {" "}
           {gallary.map((el, i) => (
