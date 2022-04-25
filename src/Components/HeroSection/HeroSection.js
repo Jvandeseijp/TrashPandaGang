@@ -337,7 +337,6 @@ const HeroSection = () => {
       <p className="text" data-aos="fade-down">
         Trash Panda Gang focuses on building a community where growth around knowledge and self-development is a priority.{" "}
         <br />
-        They are going to conquer the Metaverse with their whole Gang.
         
       </p>
       <div className="text-center mt-2">
