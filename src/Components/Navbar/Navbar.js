@@ -76,7 +76,7 @@ const Navbar = () => {
             activeClass="active"
             className="nav-item"
           >
-            <img src="./images/logo.png" alt="Logo" className="logo" />
+            <img src="./images/logoklein.JPG" alt="Logo" className="logo" />
           </Link>
           <div className="d-none d-md-flex">
             {navArray.map((el, i) => (
