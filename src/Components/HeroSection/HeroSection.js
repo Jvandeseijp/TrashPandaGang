@@ -25,7 +25,7 @@ const Wrapper = styled.div`
   .scrollIconAnim
   {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
   }
   .title {
     font-weight: normal;
