@@ -247,7 +247,6 @@ const RoadMap = () => {
         "Exclusive holders channels.",
         "Merch shop for holders only.",
         "Gifts and airdrops.",
-        "Owner’s rights.",
         "Creating a personal and self-development platform."
       ]
     },
@@ -265,7 +264,7 @@ const RoadMap = () => {
       img: "./images/roadmap4.png",
       title: "BUILDING",
       text:[
-        "Group of holders gets the possibility to create their own NFT project, financially and network supported by the TPG family",
+        "Group of holders gets the possibility to create their own NFT project, financially and network supported by the TPG family.",
         "Physical collectible Items. (Mint pass)",
         "Pandas collection. (Mint pass)"
       ]
