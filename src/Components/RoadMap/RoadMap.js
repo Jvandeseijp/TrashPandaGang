@@ -244,7 +244,7 @@ const RoadMap = () => {
       title: "PROCESS",
       text:[
         "Launchpad Whitelist Raffles of other projects.",
-        "Insane network around the globe.",
+        "Exclusive holders channels.",
         "Merch shop for holders only.",
         "Gifts and airdrops.",
         "Owner’s rights.",
@@ -265,8 +265,7 @@ const RoadMap = () => {
       img: "./images/roadmap4.png",
       title: "BUILDING",
       text:[
-        "Group of holders gets the possibility to create their own NFT project.",
-        "Connected to TPG, sponsored financially and connections from TPG network.",
+        "Group of holders gets the possibility to create their own NFT project, financially and network supported by the TPG family",
         "Physical collectible Items. (Mint pass)",
         "Pandas collection. (Mint pass)"
       ]

@@ -94,7 +94,7 @@ const Features = () => {
             lg={6}
             className="d-flex justify-content-center align-items-center my-3 my-md-0 mx-auto order-2 order-md-1"
           >
-            <img src="/images/austronaut.png" alt="#" className="image mx-auto" />
+            <img src="/images/austronaut-min.png" alt="#" className="image mx-auto" />
           </Col>
         </Row>
       </Col>

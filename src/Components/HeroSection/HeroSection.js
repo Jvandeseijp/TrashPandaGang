@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
 
   padding: 150px 25px;
-  background: url(./images/backfaded.png) #000;
+  background: url(./images/A-min.png) #000;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ const HeroSection = () => {
         GANG
       </h1>
       <p className="text" data-aos="fade-down">
-        Trash Panda Gang NFT will produce a unique collection of 5555 pieces.{" "}
+        Trash Panda Gang focuses on building a community where growth around knowledge and self-development is a priority.{" "}
         <br />
         They are going to conquer the Metaverse with their whole Gang.
         
