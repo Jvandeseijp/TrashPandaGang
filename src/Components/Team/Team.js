@@ -107,6 +107,15 @@ const Team = () => {
       text: "",
       linkedin: "https://www.linkedin.com/in/jarmo-van-de-seijp/",
     },
+    {
+      img: "./images/marketing.jpeg",
+      position: "Head of Marketing",
+      name: "Andri Davids",
+      text: "",
+      linkedin: "https://www.linkedin.com/in/anri-davids-61485311b/",
+      twitter: "https://twitter.com/anridavids_eth",
+
+    },
   ];
   return (
     <Wrapper id="team" data-aos="fade-up">
