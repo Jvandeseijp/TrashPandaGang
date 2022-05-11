@@ -60,7 +60,7 @@ const Wrapper = styled.div`
   .vertical-timeline-element-title {
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 125%;
     text-transform: capitalize;
     color: #ffffff;
