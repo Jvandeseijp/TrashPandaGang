@@ -110,7 +110,7 @@ const Team = () => {
     {
       img: "./images/marketing.jpeg",
       position: "Head of Marketing",
-      name: "Andri Davids",
+      name: "Anri Davids",
       text: "",
       linkedin: "https://www.linkedin.com/in/anri-davids-61485311b/",
       twitter: "https://twitter.com/anridavids_eth",
