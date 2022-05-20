@@ -11,11 +11,7 @@ import DiscordSection from "./Components/DiscordSection/DiscordSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import ReactGA from 'react-ga';
 
-
-const TRACKING_ID = "G-HKBZF75EZR"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
 function App() {
   useEffect(() => {
