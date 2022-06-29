@@ -1,0 +1,113 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.myWrapper {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 50px 70px;
+  padding-bottom: 30px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+.myRow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  padding: 20px 0px;
+}
+
+.myCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 20%;
+  padding: 25px 0px;
+
+  position: relative;
+}
+.myCol::before {
+  content: url("../../../public/images/star.svg");
+  position: absolute;
+  right: -5%;
+}
+.icon::before {
+  display: none;
+}
+.evenIcon {
+  font-size: 30px;
+}
+
+.images {
+  width: 70%;
+}
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1399px) {
+  .images {
+    width: 80%;
+  }
+  .myWrapper {
+    padding: 40px 50px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .myWrapper {
+    padding: 40px 50px;
+    padding-bottom: 30px;
+  }
+  .myCol {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .myCol {
+    width: 33.33%;
+  }
+  .images {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .myWrapper {
+    padding: 50px 30px;
+    padding-bottom: 30px;
+  }
+  .images {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    font-size: 38px;
+  }
+  .myCol {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 31px;
+  }
+}
