@@ -30,7 +30,7 @@ function App() {
       <DiscordSection />
 
       <p className="copyright">
-        2022 © <span className="trash">Trash Panda Gang</span> All rights
+        2022 © <span className="trash">Raccoon City</span> All rights
         reserved
       </p>
     </>

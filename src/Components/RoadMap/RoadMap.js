@@ -231,12 +231,12 @@ const RoadMap = () => {
   const roadmap = [
     {
       img: "./images/roadmap1.png",
-      title: "TPG",
+      title: "RCC",
       text:[
-        "Launch of 5555 Trash Panda Gang NFTs.",
-        "X20 Legendary TPGs.",
-        "Limited edition merch drop for holder who holds 2+ TPGs.",
-        "555 TPG Warriors will receive a free exclusive NFT airdrop."
+        "Launch of 2222 Raccoon City NFTs.",
+        "X20 Legendary RCCs.",
+        "Limited edition merch drop for holder who holds 2+ RCCs.",
+        "222 RCC Warriors will receive a free exclusive NFT airdrop."
       ]
     },
     {
@@ -264,18 +264,18 @@ const RoadMap = () => {
       img: "./images/roadmap4.png",
       title: "BUILDING",
       text:[
-        "Group of holders gets the possibility to create their own NFT project, financially and network supported by the TPG family.",
+        "Group of holders gets the possibility to create their own NFT project, financially and network supported by the RCC family.",
         "Physical collectible Items. (Mint pass)",
-        "Pandas collection. (Mint pass)"
+        "Raccoon collection. (Mint pass)"
       ]
     },
     {
       img: "./images/roadmap5.png",
       title: "LOADING…",
       text:[
-        "Buying Sandbox land for TPG holders.",
+        "Buying Sandbox land for RCC holders.",
         "Creating businesses and business ideas in the Metaverse.",
-        "TPG V2.",
+        "RCC V2.",
         "Roadmap 2.0",
       ]
     },

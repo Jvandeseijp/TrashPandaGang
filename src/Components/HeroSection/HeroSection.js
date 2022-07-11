@@ -331,11 +331,11 @@ const HeroSection = () => {
     <Wrapper id="hero" data-aos="fade-up">
       <div >
       <h1 className="title" data-aos="fade-down">
-        TRASH <span className="panda">PANDA </span>
-        GANG
+        <span className="panda">RACCOON </span>
+        CITY
       </h1>
       <p className="text" data-aos="fade-down">
-      Trash Panda Gang, an NFT project from a team of well-known artists, and crypto experts {" "}
+      Raccoon City, an NFT project from a team of well-known artists, and crypto experts {" "}
         <br />
         aims to help people become the best version of themselves.
       </p>

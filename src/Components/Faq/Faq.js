@@ -82,12 +82,12 @@ const Faq = () => {
     {
       question: "What is the supply?",
 
-      Ans: "There will be a total of 5555 NFT's available for mint.",
+      Ans: "There will be a total of 2222 NFT's available for mint.",
     },
     {
-      question: "What blockchain will Trash Panda Gang be on?",
+      question: "What blockchain will Raccoon City be on?",
 
-      Ans: "TPG will be launched on the Ethereum blockchain.",
+      Ans: "RCC will be launched on the Ethereum blockchain.",
     },
     {
       question: "How do I get on the Whitelist?",
@@ -102,7 +102,7 @@ const Faq = () => {
     {
       question: "How do I know if I'm on the whitelist?",
 
-      Ans:` You will have the 📄TPG Whitelisted role on your TPG discord profile!
+      Ans:` You will have the 📄RCC Whitelisted role on your RCC discord profile!
       Make sure to read whitelist info channel in Discord & 📣-announcements channel frequently so you don't miss out on new updates!`,
     },
    
@@ -115,7 +115,7 @@ const Faq = () => {
       question: "How many pieces can you mint?",
 
       Ans:`The Whitelist can mint up to 2 NFTs.
-      The TPG Warriors can mint up to 3 NFTs.
+      The RCC Warriors can mint up to 3 NFTs.
       The Raffle can mint up to 4 NFTs (the remaining ones).`,
     },
   ];

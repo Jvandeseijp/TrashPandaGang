@@ -75,7 +75,7 @@ const Features = () => {
             </h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="167" height="10" viewBox="0 0 167 10" fill="none"><rect width="167" height="2" rx="1" fill="url(#paint0_linear_393_3132)"></rect><rect y="8" width="87" height="2" rx="1" fill="url(#paint1_linear_393_3132)"></rect><defs><linearGradient id="paint0_linear_393_3132" x1="167" y1="2" x2="-0.00152114" y2="0.136306" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient><linearGradient id="paint1_linear_393_3132" x1="87" y1="10" x2="-0.00868664" y2="9.49415" gradientUnits="userSpaceOnUse"><stop stopColor="#C4C4C4" stopOpacity="0"></stop><stop offset="1" stopColor="#0bd488"></stop></linearGradient></defs></svg>
             <p className="text">
-            Trash Panda Gang is an Ethereum based NFT project that has been designed by two famous artists named Dorothy Ballarini and Milen Piskuliyski. 
+            Raccoon City is an Ethereum based NFT project that has been designed by two famous artists named Dorothy Ballarini and Milen Piskuliyski. 
             They have worked with several big clients in the film industry such as Disney, Marvel, and DC. 
             <br />
             Examples of Hollywood epics they have worked on are: StarWars, The Matrix, Fast & Furious, Jurassic World, and much more. 
@@ -83,7 +83,7 @@ const Features = () => {
             </p>
             <p className="text">
             They are both taking the first steps toward becoming independent artists and saw the NFT space as a great opportunity to kickstart their dream. 
-            Together with the marketing head Kevsko they brought the concept of Trash Panda Gang to life.
+            Together with the marketing head Kevsko they brought the concept of Raccoon City to life.
             </p>
             
           </Col>
